@@ -1,7 +1,7 @@
 # Retos_CHAR_DOUBLE_INT
 📘 Ejercicios en C: char, double e int
 
-Este repositorio contiene **ejemplos prácticos** para aprender a usar los tipos de datos `char`, `double` e `int` en C.  
+Este repositorio contiene **ejemplos sencillos y prácticos** para aprender a usar los tipos de datos `char`, `double` e `int` en C.  
 Cada sección incluye **5 ejercicios** con su respectiva explicación y código fuente.
 
 ---
@@ -22,7 +22,10 @@ int main() {
     return 0;
 }
 
+```
 2️⃣ Determinar si un carácter es vocal o consonante
+
+```
 #include <stdio.h>
 
 int main() {
@@ -35,8 +38,9 @@ int main() {
         printf("Es una consonante\n");
     return 0;
 }
-
+```
 3️⃣ Convertir una letra minúscula a mayúscula
+```
 #include <stdio.h>
 
 int main() {
@@ -49,8 +53,10 @@ int main() {
         printf("No es minuscula\n");
     return 0;
 }
-
+```
 4️⃣ Contar cuántas veces aparece una letra en una palabra
+
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -67,8 +73,9 @@ int main() {
     printf("La letra '%c' aparece %d veces\n", letra, contador);
     return 0;
 }
-
+```
 5️⃣ Verificar si un carácter es un dígito numérico
+```
 #include <stdio.h>
 
 int main() {
@@ -82,11 +89,13 @@ int main() {
     return 0;
 }
 
+```
 🔢 Sección 2: double en C
 
 El tipo double representa números reales de doble precisión, ideal para cálculos con decimales.
 
 1️⃣ Calcular el valor de pi (serie de Leibniz)
+```
 #include <stdio.h>
 
 int main() {
@@ -102,8 +111,9 @@ int main() {
     printf("Valor aproximado de pi: %.10lf\n", pi);
     return 0;
 }
-
+```
 2️⃣ Sumar dos números double
+```
 #include <stdio.h>
 
 int main() {
@@ -117,7 +127,9 @@ int main() {
     return 0;
 }
 
+```
 3️⃣ Calcular el promedio de 5 números
+```
 #include <stdio.h>
 
 int main() {
@@ -131,8 +143,9 @@ int main() {
     printf("El promedio es: %.10lf\n", suma / 5);
     return 0;
 }
-
+```
 4️⃣ Determinar si un número es positivo, negativo o cero
+```
 #include <stdio.h>
 
 int main() {
@@ -147,8 +160,9 @@ int main() {
         printf("Es cero\n");
     return 0;
 }
-
+```
 5️⃣ Calcular la potencia de un número
+```
 #include <stdio.h>
 #include <math.h>
 
@@ -162,12 +176,14 @@ int main() {
     printf("El resultado es: %.10lf\n", resultado);
     return 0;
 }
-
+```
 🔠 Sección 3: int en C
 
 El tipo int representa números enteros, positivos o negativos, sin decimales.
 
 1️⃣ Sumar dos enteros
+
+```
 #include <stdio.h>
 
 int main() {
@@ -186,7 +202,9 @@ int main() {
     return 0;
 }
 
+```
 2️⃣ Determinar si un número es par o impar
+```
 #include <stdio.h>
 
 int main() {
@@ -199,8 +217,9 @@ int main() {
         printf("Es impar\n");
     return 0;
 }
-
+```
 3️⃣ Calcular el factorial de un número
+```
 #include <stdio.h>
 
 int main() {
@@ -218,7 +237,9 @@ int main() {
     return 0;
 }
 
+```
 4️⃣ Encontrar el mayor de tres enteros
+```
 #include <stdio.h>
 
 int main() {
@@ -238,7 +259,9 @@ int main() {
     return 0;
 }
 
+```
 5️⃣ Contar del 1 al 100 con un ciclo
+```
 #include <stdio.h>
 
 int main() {
@@ -248,19 +271,21 @@ int main() {
     return 0;
 }
 
+```
 ⚙️ ¿Cómo compilar y ejecutar?
 
 En la terminal, dentro de la carpeta del archivo:
-
+```
 gcc archivo.c -o archivo
 ./archivo
 
-
+```
 Para los programas que usan funciones matemáticas (pow):
-
+```
 gcc archivo.c -o archivo -lm
 ./archivo
 
+```
 
 
 
