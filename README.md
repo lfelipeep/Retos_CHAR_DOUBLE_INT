@@ -1,7 +1,7 @@
 # Retos_CHAR_DOUBLE_INT
 📘 Ejercicios en C: char, double e int
 
-Este repositorio contiene **ejemplos sencillos y prácticos** para aprender a usar los tipos de datos `char`, `double` e `int` en C.  
+Este repositorio contiene **ejemplos prácticos** para aprender a usar los tipos de datos `char`, `double` e `int` en C.  
 Cada sección incluye **5 ejercicios** con su respectiva explicación y código fuente.
 
 ---
