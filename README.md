@@ -275,13 +275,13 @@ int main() {
 ⚙️ ¿Cómo compilar y ejecutar?
 
 En la terminal, dentro de la carpeta del archivo:
-```
+```c
 gcc archivo.c -o archivo
 ./archivo
 
 ```
 Para los programas que usan funciones matemáticas (pow):
-```
+```c
 gcc archivo.c -o archivo -lm
 ./archivo
 
