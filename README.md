@@ -25,7 +25,7 @@ int main() {
 ```
 2️⃣ Determinar si un carácter es vocal o consonante
 
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -40,7 +40,7 @@ int main() {
 }
 ```
 3️⃣ Convertir una letra minúscula a mayúscula
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -56,7 +56,7 @@ int main() {
 ```
 4️⃣ Contar cuántas veces aparece una letra en una palabra
 
-```
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -75,7 +75,7 @@ int main() {
 }
 ```
 5️⃣ Verificar si un carácter es un dígito numérico
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -95,7 +95,7 @@ int main() {
 El tipo double representa números reales de doble precisión, ideal para cálculos con decimales.
 
 1️⃣ Calcular el valor de pi (serie de Leibniz)
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -113,7 +113,7 @@ int main() {
 }
 ```
 2️⃣ Sumar dos números double
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -129,7 +129,7 @@ int main() {
 
 ```
 3️⃣ Calcular el promedio de 5 números
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -145,7 +145,7 @@ int main() {
 }
 ```
 4️⃣ Determinar si un número es positivo, negativo o cero
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -162,7 +162,7 @@ int main() {
 }
 ```
 5️⃣ Calcular la potencia de un número
-```
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -183,7 +183,7 @@ El tipo int representa números enteros, positivos o negativos, sin decimales.
 
 1️⃣ Sumar dos enteros
 
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -204,7 +204,7 @@ int main() {
 
 ```
 2️⃣ Determinar si un número es par o impar
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -219,7 +219,7 @@ int main() {
 }
 ```
 3️⃣ Calcular el factorial de un número
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -239,7 +239,7 @@ int main() {
 
 ```
 4️⃣ Encontrar el mayor de tres enteros
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -261,7 +261,7 @@ int main() {
 
 ```
 5️⃣ Contar del 1 al 100 con un ciclo
-```
+```c
 #include <stdio.h>
 
 int main() {
