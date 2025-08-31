@@ -260,7 +260,7 @@ int main() {
 ### 3️⃣ Calcular el factorial de un número
 
 El factorial multiplica todos los números desde 1 hasta n.
-Ejemplo: 5! = 1*2*3*4*5 = 120.
+Ejemplo: 5! = 1×2×3×4×5 = 120.
 Si el número es negativo, muestra que no existe factorial.
 ```c
 #include <stdio.h>
